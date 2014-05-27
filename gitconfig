@@ -1,6 +1,6 @@
 [user]
-	name = Ariman
-	email = xarimanx@gmail.com
+  name = Evgeniy Maslov
+  email = eum@anahoret.com
 [color]
   ui = auto
   branch = auto
@@ -14,4 +14,11 @@
   co = checkout
   br = branch
 [core]
-  editor = mate -w
+  editor = subl -w
+  excludesfile = /Users/eum/.gitignore_global
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path =
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
