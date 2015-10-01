@@ -12,8 +12,8 @@ export HISTFILESIZE=1000000000
 export HISTSIZE=1000000
 
 export ARCHFLAGS="-arch x86_64"
-export LDFLAGS=-L/usr/local/Cellar/openssl/1.0.1c/lib
-export CPPFLAGS=-I/usr/local/Cellar/openssl/1.0.1c/include
+#export LDFLAGS=-L/usr/local/Cellar/openssl/1.0.1c/lib
+#export CPPFLAGS=-I/usr/local/Cellar/openssl/1.0.1c/include
 
 # Color prompt with showing current git branch
 GIT_PS1_SHOWDIRTYSTATE=true

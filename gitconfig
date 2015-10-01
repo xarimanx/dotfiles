@@ -1,6 +1,6 @@
 [user]
   name = Evgeniy Maslov
-  email = eum@anahoret.com
+  email = xarimanx@gmail.com
 [color]
   ui = auto
   branch = auto
@@ -22,3 +22,9 @@
 [mergetool "sourcetree"]
   cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
   trustExitCode = true
+[push]
+  default = current
+[filter "lfs"]
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true

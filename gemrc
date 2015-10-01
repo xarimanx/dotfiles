@@ -1,9 +1,8 @@
---- 
-:verbose: true
-:benchmark: false
+---
 :backtrace: false
 :bulk_threshold: 1000
+:sources:
+- https://rubygems.org/
+- http://gemcutter.org
 :update_sources: true
-gem: --no-ri --no-rdoc
-:sources: 
-- http://production.s3.rubygems.org.s3.amazonaws.com/
+:verbose: true
