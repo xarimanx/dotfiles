@@ -13,6 +13,7 @@
   ci = commit
   co = checkout
   br = branch
+  lol = log --pretty=oneline --abbrev-commit --graph --decorate
 [core]
   editor = subl -w
   excludesfile = /Users/eum/.gitignore_global
